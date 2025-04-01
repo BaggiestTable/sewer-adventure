@@ -1,6 +1,5 @@
-I chose to make a choice based dungeon crawler like Colossal Cave Adventure with portals.
+I chose to make a choice based dungeon crawler like Colossal Cave Adventure.
 I made an adventure game not really based around a certain area.
-I added a "portal" where you can dig with the shovel to skip a section of the game (sewer and maze).
 
 I provided some playthroughs in case you want to get through 
 the game in as little time as possible or if you get stuck.
