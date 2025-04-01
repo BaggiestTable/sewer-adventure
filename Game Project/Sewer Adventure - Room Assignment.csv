@@ -1,0 +1,33 @@
+Name,North,East,South,West,Up,Down,Items,NPC,Locked,Description,Explanation
+road1,school,river,road2,park,,,,,,You are in front of the school.,
+road2,road1,forest,road2,,,,key,,,You are on the road.,
+school,history_room,it_room,road1,music_room,,,notebook,,,You are in the main school building.,"You are in the school. There is a room to the east, north, and west of you."
+it_room,,,,school,,,nitrobid,,,You are in the IT room.,You are in the IT room. The exit is to the west.
+history_room,,,school,,,,bone,,,You are in the history room.,"You are in the history room. The exit is to the south. A marking on the wall says ""left, straight, right"""
+science_room,,,,school,,,,,,You are in the science room.,
+music_room,,school,,,,,keytar,,,You are in the music room.,You are in the music room. The exit is to the east.
+forest,river,,,road2,,,stick,,,You are in the forest.,You are in the forest. It is hard to tell what is around you.
+park,playground,road1,,,,,,wolf,,You are back at the park.,"You are in a park. To the north is a playground, and to the east is the end of the road."
+playground,,school,park,,,hole,shovel,,,You are on the playground.,You are in the playground. The park is to the south.
+river,stream,,forest,road1,,,,,,You are in the river.,"You are in the bend of a river. The river gets thinner as it heads north, and a forest is to the south."
+stream,,,river,,,gutter,,,,You are in the stream.,
+sewer1,sewer2,,,,gutter,,,,,You are below the sewer entrance.,You are below the entrance to the sewer. You can head north.
+sewer2,sewer3,,sewer1,,,,,,,You are in the middle of the sewer.,You are in the middle of the sewer. You can head south or north.
+sewer3,,,sewer2,maze1,,,,,,You are in the sewer with a door on the west wall.,You are in a sewer with a door on the west side of the wall. You can head south down the sewer.
+maze1,maze4,sewer3,maze2,maze6,,,,,,You are at the start of the maze.,
+maze4,,,maze1,maze5,,,,,,You are still in the maze.,
+maze5,,maze4,maze6,,,,,,,You are still in the maze.,
+maze6,maze5,maze1,,,,,,,,You are still in the maze.,
+maze2,maze1,,maze3,,,,,,,You are still in the maze.,
+maze3,maze2,,,cavern,,,,,,The exit is to the west.,"You are in the maze, but the exit seems to be to the west."
+cavern,,maze3,door,mineshaft,,,,,,You are in the cavern.,"You are in a cavern. To the east is the maze, to the south is a door, and to the west is a mineshaft."
+subway,,,cavern,,,,,,,You are in the subway.,
+mineshaft,roman_ruins,cavern,library,dwarven_mine,,,,,,You are in the mineshaft.,
+roman_ruins,,,mineshaft,,,,,skeleton,,You are at the Roman ruins.,You are surrounded by roman ruins. To the south is the mineshaft.
+dwarven_mine,,mineshaft,,,,,,dwarf,,You are in the dwarven mines.,
+library,mineshaft,,,,,,,wizard,,You are in the library.,
+door,cavern,,fortress,,,,,,TRUE,,
+fortress,cavern,,national_treasure,,,,,,,You are in the fortress.,You are in a fortress. There is something shiny to the south. The cavern is to the north.
+national_treasure,,,,,,,,,,,
+hole,,,,,,,,,TRUE,,
+gutter,,,,,,,,,TRUE,,

@@ -1,0 +1,61 @@
+PS C:\Users\School\Documents\CS201\Projects\Game Project> & C:/Users/School/anaconda3/python.exe "c:/Users/School/Documents/CS201/Projects/Game Project/main.py"
+
+Welcome to the Perfect Sewer Adventure! I will be your guide as you explore this small world.
+You can give me instructions for you to do things, like 'go north' or 'pick up ___'. You can travel cardinal directions,
+up and down, left and right, and other ways. You can not just say the name of a place. You have to say a direction. 
+Some information given will be useful, where as other information may be useless. Say 'help' if you need more help. Good luck!
+
+You find yourself at the end of a road; to the north of you is a school, to the east of you is a river, and to the west is a park.
+>>>north
+You are now in a school building. There is a room to the east, north, and west of you.
+There is a notebook on the ground.
+>>>north
+You are in a room with some books and timeline plots on the walls. A marking on the wall says "left, straight, right"
+There is a bone on the ground that fell from a display.
+>>>bone
+You picked up the bone.
+>>>south
+You are in the main school building.
+There is a notebook on the ground.
+>>>south
+You are in front of the school.
+>>>west
+You are in a park with nice green grass. To the north of you is a playground.
+There is a wolf here.
+>>>bone   
+Congratulations! You give the bone to the wolf. He really likes it.
+The wolf is now your pet dog. Please refer to him as 'dog' now.
+>>>north
+You are on a playground. The sand and rocks get into your shoes.
+A shovel is underneath the slide.
+>>>shovel
+You picked up the shovel.
+>>>shovel
+You dug a hole in the sand. It appears that there is a large area underneath the playground,
+but it's hard to see where it goes. The shovel unfortunately broke.
+>>>down
+You are now in a cavern. To the east is the maze, to the south is a door, and to the west is a mineshaft.
+>>>west
+The mineshaft continues west to more mines. To the north are some ruins, to the east is the cavern, and to the south is a library.
+>>>north
+These ruins look like they are of Roman origin. They must be ancient from when the Romans conquered Kansas.
+There is a skeleton here. He seems dangerous.
+>>>skeleton
+*Boss music starts playing*
+Skeleton: "I think I forgot my pie in the oven."
+The skeleton obviously wants to fight you. What will you do?
+1. Use dog
+>>>1
+Your dog goes up and paws at the skeleton. he seems to be wanting some pets.
+Your dog decides to grab one of the skeleton's bones and bring it back to you.
+The skeleton falls apart and is defeated!
+The curse of the skeleton was released from the large door.
+>>>south
+You are in the mineshaft.
+>>>east
+You are now in a cavern. To the north is a subway, to the east is the maze, to the south is a fortress, and to the west is a mineshaft.
+>>>south
+You enter the fortress. This place looks scary. You can see something shiny to the south.
+>>>south
+Congratulations! You found the national treasure! You beat the game.
+PS C:\Users\School\Documents\CS201\Projects\Game Project> 

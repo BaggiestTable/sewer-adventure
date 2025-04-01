@@ -1,0 +1,106 @@
+PS C:\Users\School\Documents\CS201\Projects\Game Project> & C:/Users/School/anaconda3/python.exe "c:/Users/School/Documents/CS201/Projects/Game Project/main.py"
+
+Welcome to the Perfect Sewer Adventure! I will be your guide as you explore this small world.
+You can give me instructions for you to do things, like 'go north' or 'pick up ___'. You can travel cardinal directions,
+up and down, left and right, and other ways. You can not just say the name of a place. You have to say a direction. 
+Some information given will be useful, where as other information may be useless. Say 'help' if you need more help. Good luck!
+
+You find yourself at the end of a road; to the north of you is a school, to the east of you is a river, and to the west is a park.
+>>>north
+You are now in a school building. There is a room to the east, north, and west of you.
+There is a notebook on the ground.
+>>>pick up notebook
+You picked up the notebook.
+>>>north
+You are in a room with some books and timeline plots on the walls. A marking on the wall says "left, straight, right"
+There is a bone on the ground that fell from a display.
+>>>use notebook
+Would you like to write or read in the notebook?
+>>>write
+What will you write down?
+>>>left straight right
+"left straight right" successfully written down.
+>>>back
+You are in the main school building.
+>>>east
+You entered a room full of computers.
+There's some nitrobid on a counter.
+>>>take nitrobid
+You picked up the nitrobid.
+>>>back
+You are in the main school building.
+>>>south
+You are in front of the school.
+>>>south
+You are on a road; to the east of you is a forest.
+Someone seems to have left a key here.
+>>>key
+You picked up the key.
+>>>north
+You are in front of the school.
+>>>east
+You are in the bend of a river. The river gets thinner as it heads north, and a forest is to the south.
+I don't know why you got in, but your shoes are soaking wet now.
+>>>north
+You are by a stream. To the south, it turns into a river. To the north, a tall wall of brush.
+The stream heads down a gutter nearby.
+>>>down
+This manhole has a lock for no reason.
+>>>use key
+The key works in the lock of the gutter.
+You might be able to fit through the hole, but I don't know why you would go down there.
+>>>down
+You- You dropped into the sewer. I guess since your shoes were already wet the rest of your clothes don't matter anyway.
+The sewer heads north.
+>>>north
+You head down the sewer. You stop to take a break.
+>>>north
+There is a door on the west side of the wall here.
+>>>west
+You are inside a maze. There is a door to the east.
+>>>notebook
+Would you like to write or read in the notebook?
+>>>read
+The notebook reads:"left straight right"
+>>>left
+You are still in the maze.
+>>>straight
+You are inside a maze. There is a door to the west.
+>>>right
+You are now in a cavern. To the east is the maze, to the south is a door, and to the west is a mineshaft.
+>>>west
+The mineshaft continues west to more mines. To the north are some ruins, to the east is the cavern, and to the south is a library.
+>>>west
+You have reached the dwarven mines. You can return east if you don't want to stay.
+There is a dwarf miner here.
+>>>dwarf
+The dwarf extracted the nitroglycerin from your nitrobid without asking.
+He gave you some of the explosives he made with it.
+>>>back
+You are in the mineshaft.
+>>>north
+These ruins look like they are of Roman origin. They must be ancient from when the Romans conquered Kansas.
+There is a skeleton here. He seems dangerous.
+>>>skeleton
+*Boss music starts playing*
+Skeleton: "I think I forgot my pie in the oven."
+The skeleton obviously wants to fight you. What will you do?
+1. Use explosives
+>>>1
+You toss the explosives at the skeleton.
+KABOOMSHSHKLLSKSHSSHSHSHhhhh
+*clik*
+*lcunc*
+The skeleton is defeated!
+The curse of the skeleton was released from the large door.
+>>>back
+You are in the mineshaft.
+>>>describe
+The mineshaft continues west to more mines. To the north are some ruins, to the east is the cavern, and to the south is a library.
+>>>east
+You are now in a cavern. To the north is a subway, to the east is the maze, to the south is a fortress, and to the west is a mineshaft.
+>>>south
+You enter the fortress. This place looks scary. You can see something shiny to the south.
+>>>south
+Congratulations! You found the national treasure! You beat the game.
+PS C:\Users\School\Documents\CS201\Projects\Game Project> 

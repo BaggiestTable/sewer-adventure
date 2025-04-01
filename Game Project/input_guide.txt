@@ -1,0 +1,19 @@
+Possible Inputs:
+describe (explain)
+help
+(go) north
+south
+east
+west
+up
+down
+forward (straight)
+back (backward)
+right
+left
+inventory
+<item>
+<npc>
+
+see get_user_action in main.py to view all functional inputs
+
