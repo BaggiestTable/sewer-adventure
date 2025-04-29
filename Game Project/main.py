@@ -126,7 +126,7 @@ user_help = "You can type cardinal directions, up or down, names of items or npc
             "You can also view your inventory typing 'inv' or 'inventory'"
 
 def get_nice_input(output = ''):
-    """method for returning a nice input"""
+    """method for returning a nicely fromatted input"""
     return input(output).lower().strip(' .,!?')
 
 
