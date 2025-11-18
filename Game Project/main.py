@@ -15,7 +15,7 @@ from player import Player
 
 
 file_path = os.path.dirname(__file__)       # import a file containing the rooms and which rooms they lead to
-room_csv = pd.read_csv(file_path + r'\Sewer Adventure - Room Assignment.csv')
+room_csv = pd.read_csv(os.path.join(file_path + r'\Sewer Adventure - Room Assignment.csv'))
 room_csv.set_index('Name', inplace=True)    # make the room names the index of the file
 
 
@@ -460,3 +460,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
