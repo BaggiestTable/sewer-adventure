@@ -16,7 +16,7 @@ Inspired by [Colossal Cave Adventure](https://en.wikipedia.org/wiki/Colossal_Cav
   
  Download my file using the green code button and then "Download ZIP".
 
-* Copy the `sewer-adventure-main` file from inside the .zip file and paste it outside of the .zip file.
+* Copy the `sewer-adventure-main` folder from inside the .zip file and paste it outside of the .zip file.
 
 In a command terminal,
 
@@ -29,6 +29,8 @@ Go to the folder using this command:
 `>pip install pandas`
 
 start the game:
+
+`>cd "Game Project"`
 
 `>python main.py`
 
